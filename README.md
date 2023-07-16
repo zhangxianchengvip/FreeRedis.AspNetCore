@@ -40,7 +40,8 @@ public WeatherForecastController(IRedisClient client)
  "FreeRedisOptions": {
     "ConnectPatterns": "MasterSlave",//连接模式 MasterSlave 、Cluster、Sentinel
     "MasterSlave": {//主从
-      "Maste": "137.0.0.1:6379,defaultDatabase=0"
+      "Maste": "137.0.0.1:6379,defaultDatabase=0",
+      "Slaves": [ "127.0.0.1:6378,password=123,defaultDatabase=0" ]
     },
     "Cluster": {//集群
       "Mastes": [ "127.0.0.1:6379,defaultDatabase=0" ]
