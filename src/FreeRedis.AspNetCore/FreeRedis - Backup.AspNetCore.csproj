@@ -9,17 +9,7 @@
     <Authors>zhangxiancheng</Authors>
     <RepositoryType>git</RepositoryType>
     <PackageReleaseNotes>freeredis asp.net core 扩展包装</PackageReleaseNotes>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Description>freeredis asp.net core 扩展包装</Description>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
-
-  <ItemGroup>
-    <None Include="..\..\README.md">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
-  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Auto.Options" Version="1.0.0" />
